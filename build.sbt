@@ -1,5 +1,3 @@
-import spray.revolver.RevolverPlugin.Revolver
-
 name := "spray-meetup"
 
 version := "1.0"
@@ -33,5 +31,3 @@ libraryDependencies ++= {
 }
 
 dependencyOverrides += "org.scala-lang" % "scala-compiler" % scalaVersion.value
-
-Revolver.settings
