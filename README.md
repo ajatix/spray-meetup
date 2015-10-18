@@ -24,6 +24,13 @@ The application comprises of three main layers
 
 ### Running the code
 [Install sbt](http://www.scala-sbt.org)
+[Install bower](http://bower.io)
+```bash
+npm install -g bower
+```
+From `/src/main/resources/app`, run `bower install` to fetch dependent javascripts and css files
+
+You can then start the server
 ```bash
 $ sbt
 # From sbt shell
