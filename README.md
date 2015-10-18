@@ -35,16 +35,18 @@ $ sbt
 $ sbt clean compile run
 ```
 
-You should see the server running at [http://localhost:8000] from browser
+You should see the server running at [http://localhost:8000](http://localhost:8000/#/) from browser
 
-API commands
-Endpoint - [http://localhost:8000/v1/spark]
+#### API commands
+Endpoint - `http://localhost:8000/v1/spark`
+```
 /train - List of trains
 /train/:id - Train info
 /station - List of stations
 /station/:id - Station info
 /calculate/train?depart=CODE&arrive=CODE - List of trains between two station codes
 /calculate/station?depart=CODE&arrive=CODE - List of stops between two station codes
+```
 
 ---
 
