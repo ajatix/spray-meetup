@@ -61,5 +61,3 @@ Endpoint - `http://localhost:8000/v1/spark`
 This project barely scratches the surface of the world of application development and is meant to help familiarize beginners by providing a foundation upon which one could work on their own idea.
 
 Have fun hacking away. 
-
-> Ajay Viswanathan
