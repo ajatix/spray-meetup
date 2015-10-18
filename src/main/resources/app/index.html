@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sigmoid Meetup</title>
+  <link rel="stylesheet" href="vendor/angular-material/angular-material.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="styles/app.css" />
+</head>
+
+<body ng-app="SigmoidMeetup" ng-cloak>
+
+<!-- The top toolbar -->
+<md-toolbar>
+  <div class="md-toolbar-tools">
+    <md-button class="md-icon-button" aria-label="Settings">
+      <md-icon>flight takeoff</md-icon>
+    </md-button>
+    <h2>
+      <span class="md-subheading">RailGaadi</span>
+    </h2>
+    <span flex></span>
+    <md-button href="/#/trains">Trains</md-button>
+    <md-button href="/#/stations">Stations</md-button>
+  </div>
+</md-toolbar>
+
+<div ng-view layout-padding></div>
+
+</body>
+
+<!-- Vendor -->
+<script src="vendor/angular/angular.js"></script>
+<script src="vendor/angular-animate/angular-animate.js"></script>
+<script src="vendor/angular-aria/angular-aria.js"></script>
+<script src="vendor/angular-material/angular-material.js"></script>
+<script src="vendor/angular-resource/angular-resource.js"></script>
+<script src="vendor/angular-route/angular-route.js"></script>
+
+<!-- App -->
+<script src="scripts/app.js"></script>
+<script src="scripts/routes.js"></script>
+<script src="scripts/theme.js"></script>
+
+<!-- Services -->
+<script src="scripts/services/trains.js"></script>
+<script src="scripts/services/stations.js"></script>
+
+<!-- Controllers -->
+<script src="scripts/controllers/trains/index.js"></script>
+<script src="scripts/controllers/trains/show.js"></script>
+<script src="scripts/controllers/stations/index.js"></script>
+<script src="scripts/controllers/stations/show.js"></script>
+
+<!-- Directives -->
+
+</html>

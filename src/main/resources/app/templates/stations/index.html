@@ -1,0 +1,11 @@
+<md-grid-list md-cols-sm="1" md-cols-md="2" md-cols-gt-md="4" md-row-height-gt-md="3:1" md-row-height="5:1" md-gutter="12px" md-gutter-gt-sm="8px" ng-cloak>
+    <md-subheader>Stations</md-subheader>
+    <md-card ng-repeat="station in stations" ng-cloak>
+        <md-card-content>
+            <h2 class="md-subheader">{{station.name}}</h2>
+        </md-card-content>
+        <div class="md-actions" layout="row" layout-align="end center">
+            <md-button ng-click="showStation(station.id);"><md-icon>map</md-icon> Info</md-button>
+        </div>
+    </md-card>
+</md-grid-list>
