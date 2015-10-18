@@ -48,6 +48,14 @@ Endpoint - `http://localhost:8000/v1/spark`
 /calculate/station?depart=CODE&arrive=CODE - List of stops between two station codes
 ```
 
+#### Useful links
++ [Angular Material](https://material.angularjs.org/latest/)
++ [Yeoman](http://yeoman.io)
++ [Public data by Indian govt.](https://data.gov.in)
++ [Dummy JSON server](https://github.com/typicode/json-server)
++ [Spray](http://spray.io)
++ [Apache Spark](http://spark.apache.org)
+
 ---
 
 This project barely scratches the surface of the world of application development and is meant to help familiarize beginners by providing a foundation upon which one could work on their own idea.
